@@ -63,7 +63,7 @@
       // set the name
       welcomeHeading.innerHTML = 'Hi! <strong>' + username +
         (mode === 'user'
-          ? '</strong>, type in your Delivery Hero\'s name to track your food.' 
+          ? '</strong>, type in your Delivery Hero\'s name to track your parcel.' 
           : '</strong>, type in the customer name to locate the address');
       // show the delivery hero's div now
       deliveryHeroBox.classList.remove('hidden');
